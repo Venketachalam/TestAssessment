@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TAUN_Elango_AbiramiB.ttf">
+            <string>TAUN_Elango_Abirami-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoDataFound" customModule="ThanthiTVRevamp" customModuleProvider="target">
+            <connections>
+                <outlet property="noDataLbl" destination="jQY-oC-SeQ" id="ulC-cM-KYZ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="289" height="33"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQY-oC-SeQ">
+                    <rect key="frame" x="10" y="5" width="270" height="24"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" none="YES"/>
+                    </accessibility>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="270" id="g2l-xp-Kly"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="k3Y-1J-4zC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="TAUN_Elango_Abirami-Bold" family="TAUN_Elango_Abirami" pointSize="18"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="jQY-oC-SeQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="6d8-WR-Sto"/>
+                <constraint firstAttribute="bottom" secondItem="jQY-oC-SeQ" secondAttribute="bottom" constant="4" id="X8l-q1-3v2"/>
+                <constraint firstItem="jQY-oC-SeQ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="alK-iJ-eBZ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-1.5" y="176.5"/>
+        </view>
+    </objects>
+</document>
