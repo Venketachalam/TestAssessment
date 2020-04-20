@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Neo Sans Arabic Regular.ttf">
+            <string>NeoSansArabic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="breakDownInnerCell" rowHeight="62" id="KGk-i7-Jjw" customClass="BreakDownInnerCell" customModule="GrantInspection" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="935" height="62"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="935" height="62"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kSa-Wt-ctK">
+                        <rect key="frame" x="1" y="0.0" width="933" height="61"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51J-vA-1iQ">
+                                <rect key="frame" x="14" y="18" width="39" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="J7g-hg-xfp"/>
+                                    <constraint firstAttribute="width" constant="39" id="M5a-eM-9rs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                <color key="textColor" red="0.31764705882352939" green="0.31764705882352939" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Excavation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3DN-Y9-b6v">
+                                <rect key="frame" x="98" y="16" width="209" height="14.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="209" id="6wh-l1-eBy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                <color key="textColor" red="0.31764705882352939" green="0.31764705882352939" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r3X-yU-9Mh" userLabel="ContractPercentageView" customClass="MBRHEBorderView" customModule="GrantInspection" customModuleProvider="target">
+                                <rect key="frame" x="333" y="6.5" width="60" height="48"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="3" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZiF-kb-K4s">
+                                        <rect key="frame" x="4" y="6" width="52" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="textColor" red="0.31764705882352939" green="0.31764705882352939" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="2ee-Vp-IAo"/>
+                                    <constraint firstAttribute="width" constant="60" id="Jkc-R8-EjH"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.42352941176470588" green="0.50588235294117645" blue="0.60784313725490191" alpha="0.32000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k3b-um-gFG" userLabel="ActualDonePercentageView" customClass="MBRHEBorderView" customModule="GrantInspection" customModuleProvider="target">
+                                <rect key="frame" x="444" y="6.5" width="60" height="48"/>
+                                <subviews>
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="3" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DDQ-xZ-DaN">
+                                        <rect key="frame" x="8" y="6" width="44" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="textColor" red="0.31764705879999999" green="0.31764705879999999" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Av6-59-Vx6"/>
+                                    <constraint firstAttribute="height" constant="48" id="Rfo-Cw-HbB"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.42352941176470588" green="0.50588235294117645" blue="0.60784313725490191" alpha="0.32000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aPS-dT-Njy" userLabel="PaymentPercentageView" customClass="MBRHEBorderView" customModule="GrantInspection" customModuleProvider="target">
+                                <rect key="frame" x="570" y="6.5" width="60" height="48"/>
+                                <subviews>
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="3" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bXP-AX-VAo">
+                                        <rect key="frame" x="10" y="7" width="40" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="textColor" red="0.31764705879999999" green="0.31764705879999999" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="qXE-BL-aIO"/>
+                                    <constraint firstAttribute="height" constant="48" id="wmI-xC-xf0"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.42352941176470588" green="0.50588235294117645" blue="0.60784313725490191" alpha="0.32000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ad-7L-TSR" userLabel="EngineerPercentageView" customClass="MBRHEBorderView" customModule="GrantInspection" customModuleProvider="target">
+                                <rect key="frame" x="673" y="6.5" width="60" height="48"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="3" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="woU-fX-X8a">
+                                        <rect key="frame" x="10" y="7" width="40" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="textColor" red="0.31764705879999999" green="0.31764705879999999" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="hKF-ZO-f1A"/>
+                                    <constraint firstAttribute="height" constant="48" id="ous-Aa-nhS"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.42352941176470588" green="0.50588235294117645" blue="0.60784313725490191" alpha="0.32000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1g-dO-43Y">
+                                <rect key="frame" x="792" y="14.5" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="Dbd-hj-LXR"/>
+                                    <constraint firstAttribute="height" constant="32" id="QNI-FQ-J93"/>
+                                </constraints>
+                                <state key="normal" image="comment_icon"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94901960784313721" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="r3X-yU-9Mh" firstAttribute="leading" secondItem="3DN-Y9-b6v" secondAttribute="trailing" constant="26" id="1Bf-WZ-0cg"/>
+                            <constraint firstAttribute="trailing" secondItem="u1g-dO-43Y" secondAttribute="trailing" constant="109" id="4xn-P9-nB1"/>
+                            <constraint firstItem="3DN-Y9-b6v" firstAttribute="leading" secondItem="51J-vA-1iQ" secondAttribute="trailing" constant="45" id="7te-3M-6zg"/>
+                            <constraint firstItem="51J-vA-1iQ" firstAttribute="leading" secondItem="kSa-Wt-ctK" secondAttribute="leading" constant="14" id="BP2-k9-jkT"/>
+                            <constraint firstItem="k3b-um-gFG" firstAttribute="leading" secondItem="r3X-yU-9Mh" secondAttribute="trailing" constant="51" id="IZZ-A3-sgg"/>
+                            <constraint firstItem="3DN-Y9-b6v" firstAttribute="top" secondItem="kSa-Wt-ctK" secondAttribute="top" constant="16" id="JMI-oP-Wct"/>
+                            <constraint firstItem="aPS-dT-Njy" firstAttribute="centerY" secondItem="kSa-Wt-ctK" secondAttribute="centerY" id="Ozg-dk-G0M"/>
+                            <constraint firstItem="51J-vA-1iQ" firstAttribute="centerY" secondItem="kSa-Wt-ctK" secondAttribute="centerY" id="Sf4-0e-W8F"/>
+                            <constraint firstItem="r3X-yU-9Mh" firstAttribute="centerY" secondItem="kSa-Wt-ctK" secondAttribute="centerY" id="et4-mR-iDn"/>
+                            <constraint firstItem="1Ad-7L-TSR" firstAttribute="centerY" secondItem="kSa-Wt-ctK" secondAttribute="centerY" id="i6k-Xm-72m"/>
+                            <constraint firstItem="1Ad-7L-TSR" firstAttribute="leading" secondItem="aPS-dT-Njy" secondAttribute="trailing" constant="43" id="joK-yu-oM8"/>
+                            <constraint firstItem="k3b-um-gFG" firstAttribute="centerY" secondItem="kSa-Wt-ctK" secondAttribute="centerY" id="jqV-Ol-r6O"/>
+                            <constraint firstItem="u1g-dO-43Y" firstAttribute="leading" secondItem="1Ad-7L-TSR" secondAttribute="trailing" constant="59" id="lRU-fr-Amw"/>
+                            <constraint firstItem="u1g-dO-43Y" firstAttribute="centerY" secondItem="kSa-Wt-ctK" secondAttribute="centerY" id="sx2-jt-IyI"/>
+                            <constraint firstItem="aPS-dT-Njy" firstAttribute="leading" secondItem="k3b-um-gFG" secondAttribute="trailing" constant="66" id="wNV-pH-AT1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="kSa-Wt-ctK" secondAttribute="trailing" constant="1" id="4B0-ko-VBW"/>
+                    <constraint firstItem="kSa-Wt-ctK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="DxB-eo-NR8"/>
+                    <constraint firstItem="kSa-Wt-ctK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="1" id="SCo-lD-AeH"/>
+                    <constraint firstAttribute="bottom" secondItem="kSa-Wt-ctK" secondAttribute="bottom" constant="1" id="oo4-h7-WVS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="actualDoneTextField" destination="DDQ-xZ-DaN" id="Tmz-Om-UfE"/>
+                <outlet property="btnAddComment_Tapped" destination="u1g-dO-43Y" id="1ET-xg-Ixr"/>
+                <outlet property="contractPercentageTextField" destination="ZiF-kb-K4s" id="Q6S-q6-qqY"/>
+                <outlet property="engineerTextField" destination="woU-fX-X8a" id="RSS-cS-iDO"/>
+                <outlet property="engineeringPercentageView" destination="1Ad-7L-TSR" id="75N-9h-ESg"/>
+                <outlet property="idLbl" destination="51J-vA-1iQ" id="USD-0R-XT5"/>
+                <outlet property="paymentTextField" destination="bXP-AX-VAo" id="RXZ-fm-LBi"/>
+                <outlet property="titleLbl" destination="3DN-Y9-b6v" id="fMV-Xw-jYc"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="76"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="comment_icon" width="32" height="32"/>
+    </resources>
+</document>

@@ -1,0 +1,259 @@
+/*
+ Localizable.strings
+ Progress
+ 
+ Created by Hasnain Haider on 12/19/18.
+ Copyright © 2018 MBRHE. All rights reserved.
+ */
+
+// Login
+"username_tf" = "إسم المستخدم";
+"password_tf" = "كلمة المرور";
+"login_btn" = "تسجيل الدخول";
+"remember_me" = "تذكرنى";
+"empty_username_and_password" = "يرجى تعبئة حقول اسم المستخدم و كلمة المرور";
+"empty_password" = "يرجى تعبئة حقل كلمة المرور";
+"empty_username" = "يرجى تعبئة حقل اسم المستخدم";
+
+//Dashboard
+"main_page" = "الصفحة الرئيسية";
+"current_request" = "الطلبات الحالة";
+"start_my_trip" = "   ابدأ الجولة";
+"select_all" = "تحديد الكل";
+"un_select_all" = "مسح الكل";
+"callnow_btn" = "   اتصل الان";
+"service_type" = "نوع الخدمة";
+"search_results" = "نتائج البحث";
+"clear_filters" = "مسح الكل";
+
+// Payment
+"pay_request_no" = "رقم الطلب : ";
+"pay_request_status" = "غير مكتمل";
+"pay_add_to_trip" = "أضف الى الجولة";
+"pay_added_to_trip" = "تمت الاضافة";
+
+"applicant_Id" = "رمز مقدم الطلب : ";
+"customer_name" = "اسم المتعامل : ";
+"land_no" = "رقم الارض : ";
+"area_name" = "إسم المنطقة : ";
+
+// Left Menu
+"home_menu" = "الرئيسية";
+"logout_menu" = "تسجيل خروج" ;
+"username_menu" = "إسم المستخدم";
+
+// Filter
+"file_number" = "رقم الطلب";
+"customer_number" = "رقم الاستمارة";
+"apply_btn" = "تطبيق";
+"clear_btn" = "مسح";
+"filter_projects_lbl" = "تصنيف المشاريع الخاصة بك";
+"please_enter" = "برجاء إدخال رقم الملف أو رقم العميل";
+"please_enter_applicationid" = "الرجاء إدخال رقم مقدم الطلب أو رقم الطلب";
+"please_enter_applicationNumber" = "الرجاء إدخال رقم الطلب";
+
+// No data & network
+"no_internet_connection" = "عذراً … لايوجد انترنت";
+"not_connected" = "غير متصل … الرجاء التحقق من اتصال الانترنت الخاص بك";
+"no_attachment_available" = "لا مرفق المتاحة";
+"no_data_Available" = "لا تتوافر بيانات";
+"no_attachment_description" = "...لا توجد ملفات مرفقة متاحة للتنزيل";
+"no_data_description" = "لا توجد تفاصيل متاحة للبيانات المدخلة";
+"work_in_progress" = " الرجاء الضغط علي الزر ادناه للمحاول من جديد";
+"server_error" = "عذراً.. فشل الإتصال" ;
+
+//Create Report
+"create _report_lbl" = "انشئ تقرير مبسط";
+"request_number_lbl" = "رقم الطلب : ";
+"back_btn" = "عودة";
+"create_ reporthousestatus_lbl" = "انشاء تقرير مبسط لحالة المسكن";
+"reporthousestatus_lbl" = "تقرير مبسط لحالة المنزل";
+"request_information_lbl" = "معلومات المتعامل و الطلب";
+"add_Building_btn" = "اضافة منشأ جديد";
+"building_type_lbl" = "نوع المنشأ";
+"completion_date_lbl" = "تاريخ الانجاز التقريبي";
+"building_name" = "اسم المنشأ";
+"building_elements" = "عناصر المنشأ";
+"service_lbl" = "خدمة";
+"building_status_lbl" = "حالة المنشأ";
+"notes_lbl" = "ملاحظات : ";
+"add_photos_btn" = "اضافة صور : ";
+"add_satellite_photos_btn" = "اضافة صورة جوية";
+"no_satellite_photos_lbl" = "عدد الصور الجوية";
+"no_add_photos_lbl" = "عدد الصور";
+"save_btn" = "حفظ";
+"save_and_close_btn" = "حفظ و اغلاق";
+"next_btn" = "التالي";
+"create_simplified_report_lbl" = "انشاء تقرير مبسط";
+"construction_size_lbl" = "حجم البناء التقريبي";
+"horizontal_expansion_lbl" = "امكانية التوسع الافقي";
+"vertical_expansion_lbl" = "امكانية التوسع الرأسي";
+"conclusion_lbl" = "الخلاصة";
+"recommendation_lbl" = "التوصية";
+"edit_btn" = "تعديل";
+"view_btn" = "عرض";
+"simplified_report_lbl" = "تقرير مبسط";
+"unknown_btn" = "غير معروف";
+"choose_building_btn" = "اختر نوع المنشأ";
+"ok_btn" = "موافق";
+"Complete_date_lbl" = "اختر تاريخ الانجاز التقريبي";
+"partially_lbl" = "جزئيا";
+"all_lbl" = "كليا";
+"search_area_lbl" = "البحث باسم المنطقة";
+"add_plot_no_lbl" = "اضف رقم الارض";
+"cancel_btn" = "الغاء";
+"add_btn" = "اضافة";
+"current_request_lbl" = "الطلب الحالي";
+"next_request_lbl" = "الطلب التالي";
+"details_lbl" = "تفاصيل";
+"start_trip_btn" = " ابدأ الرحلة";
+
+
+//Satellite Map view
+"mapView_lbl" = "عرض الخريطة : ";
+"satellite_btn" = "الأقمار الصناعية" ;
+"defaultMapButton_btn" = "الإفتراضي" ;
+"select_area_lbl" = "اختر المنطقة : ";
+"drawPolygon_btn" = "ارسم مضلع";
+"addBuildingPoint_btn" = "إضافة نقطة بناء";
+"saveBuilding_btn" = "حفظ المبنى";
+"addSatellitePhoto_lbl" = "إضافة صورة القمر الصناعي ";
+"addPhoto_lbl" = "إضافة صورة";
+
+//Newly added
+"attachment_Files" = "الملفات المرفقة";
+"no_Internet" = "لا يوجد اتصال بالانترنت";
+"bad_Gateway" = "خطآ رقم ٥٠٢";
+"the_request_timed_out" = "انتهت مهلة الطلب";
+"photos" = "الصور";
+"error_InvalidJson" = "يوجد خطأ: JSON غير صالح! تعذرت قراءة البيانات لأنها ليست بالتنسيق الصحيح.";
+"attachment_uploaded_successfully" = "تم تحميل المرفق بنجاح";
+"please_enter_the_comments" = "يرجى إدخال التعليقات";
+"kitchen" = "المطبخ";
+"bathroom" = "الحمام";
+"bedrooms" = "غرف النوم";
+"living_room" = "غرفة المعيشة";
+"washing_room" = "غرفة الغسيل";
+"store" = "مخزن";
+"approximate_completion_date" = "تاريخ الانتهاء التقريبي : ";
+"building_Type" = "نوع البناء : ";
+"building_Size" = "مساحة البناء : ";
+"structural" = "الانشائية : ";
+"services" = "الخدمات : ";
+"building_status" = "حالة المنشأ :";
+"reception" = "الاستقبال";
+"rented" = "مؤجر";
+"deserted" = "مهجور";
+"occupied_by_the_citizen" = "يشغله مواطن";
+"totally_allowd" = "مسموح كلياً";
+"not_allowed" = "غير مسموح";
+"partially_possible" = "مسموح جزئياً";
+"need_more_examination" = "يحتاج المزيد من الفحص";
+"out_of_conditions" = "خارج عن الظروف";
+"remove_and_replace" = "إزالة واستبدال";
+"maintenance" = "صيانة";
+"good" = "جيد";
+"bad" = "سيء";
+"average" = "متوسط";
+"number_of_Photos" = "عدد الصور : ";
+"number_of_Satelite_Photos" = "عدد الصور الجوية : ";
+"select_Approximate_Complete_Date" = "اختر تاريخ الانتهاء التقريبي";
+"building_name_not_Available" = "اسم البناء غير متوفر";
+"building_Facility_Details_Not_Available" = "تفاصيل منشأ البناء غير متوفرة";
+"application_ID" = "رقم الطلب : ";
+"duration" = "المدة : ";
+"enable_QA_Mode" = "تشغيل وضع QA";
+"successfully_added_location" = "تمت إضافة الموقع بنجاح";
+"successfully_added_Plot_number" = "تم إضافة رقم الارض بنجاح";
+"no_location_found" = "لم يتم العثور على الموقع…";
+"no_attachment_found" = "لم يتم العثور على المرفق!";
+"downloading_file_please_wait" = "يتم تنزيل الملف... الرجاء الانتظار";
+"downloaded_successfully" = "تم تنزيل الملف بنجاح";
+"days" = "ايام";
+"the_coordinate_is_not_set_for_this_plot." = "لم يتم تعيين الإحداثيات لرقم الارض هذا.";
+"please_enter_Application_number_or_Land_number." = "الرجاء إدخال رقم الطلب أو رقم الأرض.";
+"copied_to_clipboard!" = "تم النسخ!";
+"page" = "الصفحة";
+"of" = "عن";
+"turn_on_Notifications" = "تشغيل الإشعارات";
+"push_notifications_are_turned_off." = "الاشعارات غير مشغلة";
+"No thanks." = "لا شكراً";
+"upload" = "تحميل";
+"Sorry_There_are_no_images_here" = "عفواً! لا توجد صور هنا!";
+"uploading...." = "جاري التحميل…";
+"your_images_has_been_started_to_upload._Please_click_on_View_to_see_the_progress..." = "بدأ تحميل الصور. يرجى النقر على “عرض” لرؤية التقدم";
+"your_Uploading_has_been_completed" = "اكتمل التحميل";
+"Confirmation" = "تأكيد";
+"Are_you_sure_You_want_to_clear_the_images" = "هل أنت متأكد من مسح الصور؟";
+"DONE" = "تم";
+"Yes" = "نعم";
+"settings_menu" = "الإعدادات";
+"service_type_lbl" = "نوع الخدمة : ";
+"A_Simplified_report_lbl" = "تقرير مبسط : ";
+"building_Size_lbl" = "مساحة البناء";
+"notes" = "ملاحظات";
+"addaPhoto_lbl" = "أضف صورة ";
+"add_New_Building_Btn" = "  إضافة مبنى جديد ";
+"house_Status_lbl" = "حالة المسكن";
+"the_approximate_construction_lbl" = "البناء التقريبي";
+"satellite_photo_lbl" = "صورة جوية";
+"no_satellite_image_lbl" = "لا يوجد صورة جوية";
+"submit_report_btn" = "تقديم التقرير ";
+"comments_lbl" = "تعليقات";
+"no_photos_attached_lbl" = "لا يوجد صور مضافة";
+"please_add_the_coordinates_to_draw_the_building_points" = "الرجاء إضافة الإحداثيات لرسم نقاط البناء";
+"please_save_building_to_upload_the_image." = "الرجاء حفظ معلومات البناء لتتم اضافة الصورة";
+"take_photo_btn" = "تصوير";
+"choose_from_library_btn" = "اختر من المكتبة";
+"please_check_with_real_device_toast" = "يرجى التحقق مع الجهاز الحقيقي.";
+"check_internet_connectivity_issue" = "تحقق من مشكلة اتصال الإنترنت";
+"posibility_expansion_lbl" = "إمكانية التوسع";
+"vertical" = "رأسى";
+"horizontal" = "افقى";
+"continue_btn" = "استمر";
+"callnow_btn_trip" = "   اتصل الان";
+"please_upload_the_image_size_below" = "يرجى تحميل حجم الصورة أقل من 5 ميغابايت.";
+"building_name_not_yet_assigned" = "اسم المبنى لم يتم تعيينه بعد";
+"select_polygon_to_add_building_point" = "حدد مضلع لإضافة نقطة بناء";
+"check_Internet_Connectivity_issue" = "تحقق من مشكلة اتصال الإنترنت";
+"one_polygon_can_draw" = "يمكن رسم مضلع واحد";
+"Are_you_sure_want_to_logout" = "هل تريد بالتأكيد تسجيل الخروج؟";
+"logout_btn" = "تسجيل خروج";
+"Completed_lbl" = "منجز";
+"view_pdf_btn" = "عرض قوات الدفاع الشعبي";
+"view_attached_photos" = "عرض الصور المرفقة";
+"delete_btn" = "حذف";
+"search_result_Lbl" = "نتيجة البحث";
+"application_number_placeHolder" = "أدخل رقم الطلب";
+"application_id_placeHolder" = "أدخل معرف التطبيق";
+"contract" = "عقد : ";
+"check_your_wifi_settings_toast" = "  تحقق من إعدادات wifi الخاصة بك  ";
+"refresh_btn" = "تحديث";
+"please_save_building_first_for_to_proceed _next_toast" = "يرجى حفظ المبنى أولاً للمتابعة بعد ذلك";
+"building_name_placeholder" = "أدخل اسم المبنى";
+"pick_building_type_lbl" = "اختيار نوع المبنى";
+"enter_building_size_placeholder" = " أدخل حجم المبنى ";
+"enter_comments_placeholder" = "أدخل التعليقات";
+"enter_plotnumber_placeholder" = " أدخل رقم القطعة ";
+"generate_Pdf_Btn" = "PDF إصدار ملف";
+"select_Building_lbl" = "اختر بناء";
+"arabic_Language_lbl" = "اللغة العربية";
+"add_Comment_lbl" = "اضف تعليق";
+"are_you_sure_want￼_delete_facility_lbl" = "￼￼￼هل انت متأكد من مسح المنشأ";
+"report_Submitted_sucessfully_lbl" = "بنجاح التقرير  تم تسليم";
+"are_you_sure_want￼_delete_attachment_lbl" = "هل انت متأكد من مسح هذا الملف؟";
+"no_lbl" = "لا";
+"yes_lbl" = "نعم";
+"plot_area_lbl" = "مساحة الارض  :";
+"serviceType_loan_lbl" = "قرض صيانة";
+"serviceType_grant_lbl" = "منحة صيانة";
+"startTrip_error_msg" ="أضف الطلبات الى الجولة اولاً، ثم ابدأ الجولة";
+"UpgradeTitle_lbl" = "تتوفر الآن نسخة 2.0 من تطبيق تفتيش المنح!";
+"UpgradeDescription_lbl" = "علماً بأن النسخة الموجودة لديكم هي 1.5. هل تود الحصول على النسخة الحديثة الآن؟";
+"Update_btn" = "تنزيل التحديث";
+"NoThanks_btn" = "تخطى";
+"LatestVersion_lbl" = "احدث نسخة: ";
+"Update" = "تحديث";
+"confirmationPopUp_Title" = "لم يتم حفظ التغييرات التي قمت بها. يرجى التأكد من عمل حفظ للتغييرات قبل الخروج من هذه الصفحة";
+"discard_btn" = "حفظ";
+"pop_Save_Btn" = "خروج";

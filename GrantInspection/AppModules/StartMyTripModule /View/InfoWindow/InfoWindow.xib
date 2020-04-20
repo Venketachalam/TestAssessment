@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Neo Sans Arabic Regular.ttf">
+            <string>NeoSansArabic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="InfoWindow" customModule="GrantInspection" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="415" height="208"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eo6-gH-hUt" customClass="TriangleView" customModule="GrantInspection" customModuleProvider="target">
+                    <rect key="frame" x="188" y="189" width="40" height="19"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <viewLayoutGuide key="safeArea" id="KHm-5c-rlw"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="margin">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jtL-lq-aYr" userLabel="ContainerView" customClass="MBRHEBorderView" customModule="GrantInspection" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="415" height="198"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FN5-uG-F5B">
+                            <rect key="frame" x="0.0" y="3" width="415" height="52"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hXA-jH-3oY" userLabel="InfoContainerView">
+                                    <rect key="frame" x="0.0" y="0.0" width="415" height="52"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uAY-w2-ZrV" userLabel="InfoView" customClass="MBRHEBorderView" customModule="GrantInspection" customModuleProvider="target">
+                                            <rect key="frame" x="20" y="20" width="12" height="12"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="0.0" green="0.3803921569" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="6"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contract:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANE-eD-WGa">
+                                            <rect key="frame" x="43" y="13" width="356" height="27"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.35686274509999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7h3-mI-rBE">
+                                            <rect key="frame" x="329" y="19" width="59" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" image="MoreDetails_icon"/>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="hXA-jH-3oY" firstAttribute="top" secondItem="FN5-uG-F5B" secondAttribute="top" id="SAx-Lk-4lP"/>
+                                <constraint firstItem="hXA-jH-3oY" firstAttribute="leading" secondItem="FN5-uG-F5B" secondAttribute="leading" id="Yyj-DN-Um2"/>
+                                <constraint firstAttribute="bottom" secondItem="hXA-jH-3oY" secondAttribute="bottom" id="Z8F-Ly-QDd"/>
+                                <constraint firstAttribute="trailing" secondItem="hXA-jH-3oY" secondAttribute="trailing" id="n7p-HU-9xz"/>
+                            </constraints>
+                        </stackView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7U5-Ic-cyS">
+                            <rect key="frame" x="0.0" y="59" width="415" height="1"/>
+                            <color key="backgroundColor" red="0.94117647059999998" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="oJy-Bc-sYg">
+                            <rect key="frame" x="16" y="78" width="384.5" height="14.5"/>
+                            <subviews>
+                                <label opaque="NO" contentMode="left" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Application ID :   " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVC-zs-BC6">
+                                    <rect key="frame" x="0.0" y="0.0" width="121.5" height="14.5"/>
+                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                    <color key="textColor" red="0.0" green="0.35686274509999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" contentMode="left" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="applicationId" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mgQ-TW-BXW">
+                                    <rect key="frame" x="131.5" y="0.0" width="121.5" height="14.5"/>
+                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                    <color key="textColor" red="0.0" green="0.35686274509999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" alpha="0.0" contentMode="left" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Application ID :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JtT-7z-2W6">
+                                    <rect key="frame" x="263" y="0.0" width="121.5" height="14.5"/>
+                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                    <color key="textColor" red="0.0" green="0.35686274509999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="mVC-zs-BC6" firstAttribute="width" secondItem="mgQ-TW-BXW" secondAttribute="width" id="FqN-27-NCM"/>
+                                <constraint firstAttribute="height" constant="14.5" id="haq-7a-ltC"/>
+                                <constraint firstItem="mVC-zs-BC6" firstAttribute="height" secondItem="mgQ-TW-BXW" secondAttribute="height" id="pFq-Hh-xlb"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pfX-Qh-BsF">
+                            <rect key="frame" x="16" y="102" width="384.5" height="17"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customer Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psO-3N-Bp5">
+                                    <rect key="frame" x="0.0" y="0.0" width="120" height="17"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="17" id="T1I-Cx-w32"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                    <color key="textColor" red="0.0" green="0.35686274509999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customer Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XcH-Fa-oJ5">
+                                    <rect key="frame" x="130" y="0.0" width="120" height="17"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="17" id="qXC-OO-uKc"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                    <color key="textColor" red="0.0" green="0.35686274509999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customer Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C9x-zz-IMI">
+                                    <rect key="frame" x="260" y="0.0" width="124.5" height="17"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="17" id="2wa-gm-5KR"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                    <color key="textColor" red="0.0" green="0.35686274509999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="17" id="bc2-Br-PJ4"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dIK-IK-pQh">
+                            <rect key="frame" x="16" y="129" width="384.5" height="14.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Land Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IpM-zg-okM">
+                                    <rect key="frame" x="0.0" y="0.0" width="121.5" height="14.5"/>
+                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                    <color key="textColor" red="0.0" green="0.35686274509999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Land Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddY-Wd-Gml">
+                                    <rect key="frame" x="131.5" y="0.0" width="121.5" height="14.5"/>
+                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                    <color key="textColor" red="0.0" green="0.35686274509999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" text="Land Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGJ-ZF-Pex">
+                                    <rect key="frame" x="263" y="0.0" width="121.5" height="14.5"/>
+                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                    <color key="textColor" red="0.0" green="0.35686274509999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14.5" id="YM7-Qd-Uem"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="iC8-p1-xCn">
+                            <rect key="frame" x="16" y="153" width="384.5" height="17"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Area Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWT-La-hQY">
+                                    <rect key="frame" x="0.0" y="0.0" width="116.5" height="17"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="17" id="wca-Mg-YGd"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                    <color key="textColor" red="0.0" green="0.35686274509999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Area Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Prp-aK-oXG">
+                                    <rect key="frame" x="126.5" y="0.0" width="117" height="17"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="17" id="IhW-7Z-hOj"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                    <color key="textColor" red="0.0" green="0.35686274509999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Area Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7SU-D0-iWT">
+                                    <rect key="frame" x="253.5" y="0.0" width="131" height="17"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="17" id="JXy-bG-3wg"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                    <color key="textColor" red="0.0" green="0.35686274509999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="17" id="hfi-cN-LE6"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="oJy-Bc-sYg" firstAttribute="top" secondItem="7U5-Ic-cyS" secondAttribute="bottom" constant="18" id="8X8-eA-75C"/>
+                        <constraint firstItem="dIK-IK-pQh" firstAttribute="leading" secondItem="oJy-Bc-sYg" secondAttribute="leading" id="90D-LP-r7n"/>
+                        <constraint firstItem="pfX-Qh-BsF" firstAttribute="leading" secondItem="oJy-Bc-sYg" secondAttribute="leading" id="98K-0S-h4S"/>
+                        <constraint firstItem="iC8-p1-xCn" firstAttribute="leading" secondItem="oJy-Bc-sYg" secondAttribute="leading" id="A9v-j4-Qys"/>
+                        <constraint firstItem="oJy-Bc-sYg" firstAttribute="leading" secondItem="jtL-lq-aYr" secondAttribute="leading" constant="16" id="BCL-z7-Avn"/>
+                        <constraint firstAttribute="trailing" secondItem="oJy-Bc-sYg" secondAttribute="trailing" constant="14.5" id="Cgt-Vg-3XF"/>
+                        <constraint firstAttribute="bottom" secondItem="7U5-Ic-cyS" secondAttribute="bottom" constant="138" id="D04-Bq-EvA"/>
+                        <constraint firstItem="7U5-Ic-cyS" firstAttribute="centerX" secondItem="FN5-uG-F5B" secondAttribute="centerX" id="EUe-zC-EOg"/>
+                        <constraint firstItem="FN5-uG-F5B" firstAttribute="top" secondItem="jtL-lq-aYr" secondAttribute="top" constant="3" id="GAa-fQ-nob"/>
+                        <constraint firstItem="7U5-Ic-cyS" firstAttribute="top" secondItem="jtL-lq-aYr" secondAttribute="top" constant="59" id="P5S-sg-gZw"/>
+                        <constraint firstAttribute="trailing" secondItem="FN5-uG-F5B" secondAttribute="trailing" id="Q0Z-J4-1Aj"/>
+                        <constraint firstItem="pfX-Qh-BsF" firstAttribute="trailing" secondItem="oJy-Bc-sYg" secondAttribute="trailing" id="RiF-gb-753"/>
+                        <constraint firstAttribute="trailing" secondItem="FN5-uG-F5B" secondAttribute="trailing" id="Spa-d0-WUa"/>
+                        <constraint firstItem="FN5-uG-F5B" firstAttribute="leading" secondItem="jtL-lq-aYr" secondAttribute="leading" id="TuL-b9-rUj"/>
+                        <constraint firstItem="FN5-uG-F5B" firstAttribute="leading" secondItem="jtL-lq-aYr" secondAttribute="leading" id="Ubw-MA-QSA"/>
+                        <constraint firstItem="7U5-Ic-cyS" firstAttribute="top" secondItem="FN5-uG-F5B" secondAttribute="bottom" constant="4" id="aec-fw-Pka"/>
+                        <constraint firstItem="FN5-uG-F5B" firstAttribute="top" secondItem="jtL-lq-aYr" secondAttribute="top" constant="3" id="bQa-y3-45A"/>
+                        <constraint firstItem="iC8-p1-xCn" firstAttribute="trailing" secondItem="oJy-Bc-sYg" secondAttribute="trailing" id="ctG-IG-IqN"/>
+                        <constraint firstItem="7U5-Ic-cyS" firstAttribute="top" secondItem="FN5-uG-F5B" secondAttribute="bottom" constant="4" id="kVm-FX-Wrs"/>
+                        <constraint firstAttribute="bottom" secondItem="iC8-p1-xCn" secondAttribute="bottom" constant="28" id="pWF-5H-K4f"/>
+                        <constraint firstItem="dIK-IK-pQh" firstAttribute="top" secondItem="pfX-Qh-BsF" secondAttribute="bottom" constant="10" id="pjG-vT-uXn"/>
+                        <constraint firstItem="pfX-Qh-BsF" firstAttribute="top" secondItem="oJy-Bc-sYg" secondAttribute="bottom" constant="9.5" id="t34-L0-EjY"/>
+                        <constraint firstItem="7U5-Ic-cyS" firstAttribute="leading" secondItem="FN5-uG-F5B" secondAttribute="leading" id="uI0-ET-NeY"/>
+                        <constraint firstItem="dIK-IK-pQh" firstAttribute="trailing" secondItem="oJy-Bc-sYg" secondAttribute="trailing" id="x2q-ak-MyJ"/>
+                        <constraint firstItem="iC8-p1-xCn" firstAttribute="top" secondItem="dIK-IK-pQh" secondAttribute="bottom" constant="9.5" id="xR2-6e-cme"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="jtL-lq-aYr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="9L0-v1-FUo"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="jtL-lq-aYr" secondAttribute="bottom" constant="10" id="IoQ-aU-CcQ"/>
+                <constraint firstItem="jtL-lq-aYr" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="gts-lB-e05"/>
+                <constraint firstItem="jtL-lq-aYr" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="rsP-Fu-LNk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="applicationIdLabel" destination="mVC-zs-BC6" id="xIg-Dy-NPc"/>
+                <outlet property="applicationIdStackView" destination="oJy-Bc-sYg" id="ad2-qh-0jf"/>
+                <outlet property="areNameStackView" destination="iC8-p1-xCn" id="O4u-es-9rl"/>
+                <outlet property="areaLbl" destination="Prp-aK-oXG" id="xNx-SL-Jvz"/>
+                <outlet property="areaNameLabel" destination="mWT-La-hQY" id="iQV-BC-alZ"/>
+                <outlet property="customerNameLabel" destination="psO-3N-Bp5" id="tMX-Nl-IoC"/>
+                <outlet property="customerNameStackView" destination="pfX-Qh-BsF" id="N2P-Eu-j5F"/>
+                <outlet property="detailsButton" destination="7h3-mI-rBE" id="R5j-V0-02h"/>
+                <outlet property="idValueLbl" destination="mgQ-TW-BXW" id="Vbe-8h-bWN"/>
+                <outlet property="lanNumberLabel" destination="IpM-zg-okM" id="9J9-Q8-YkU"/>
+                <outlet property="laneNumberStackview" destination="dIK-IK-pQh" id="rJb-Jh-oB5"/>
+                <outlet property="nameLbl" destination="XcH-Fa-oJ5" id="zQy-uD-CAA"/>
+                <outlet property="numberLbl" destination="ddY-Wd-Gml" id="Wy6-dX-Lea"/>
+                <outlet property="requestNumberLabel" destination="ANE-eD-WGa" id="EJA-Np-6iy"/>
+                <outlet property="requestNumberStackview" destination="FN5-uG-F5B" id="nLX-xz-AYl"/>
+                <outlet property="statusView" destination="uAY-w2-ZrV" id="1oh-2j-xKY"/>
+            </connections>
+            <point key="canvasLocation" x="34.399999999999999" y="44.07796101949026"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="MoreDetails_icon" width="24" height="7"/>
+    </resources>
+</document>

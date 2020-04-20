@@ -1,0 +1,261 @@
+/*
+ Localizable.strings
+ Progress
+ 
+ Created by Muhammad Akhtar on 12/19/18.
+ Copyright © 2018 MBRHE. All rights reserved.
+ */
+
+
+// Login
+"username_tf" = "Username";
+"password_tf" = "Password";
+"login_btn" = "Login";
+"remember_me" = "Remember Me";
+"empty_username_and_password" = "Please fill the username and password fields";
+"empty_password" = "Please fill the password field";
+"empty_username" = "Please fill the username field";
+
+
+//Dashboard
+"main_page" = "Main Page";
+"current_request" = "Current Requests";
+"start_my_trip" = "Start Trip";
+"select_all" = "Select All";
+"un_select_all" = "UnSelect All";
+"callnow_btn" = "   CALL NOW";
+"service_type" = "Service Type";
+"search_results" = "Search Results";
+"clear_filters" = "Clear Filters";
+
+// Payment
+"pay_request_no" = "Request No. : ";
+"pay_request_status" = "Not Completed";
+"pay_add_to_trip" = "Add To Trip";
+"pay_added_to_trip" = "Added to trip";
+
+"applicant_Id" = "Applicant ID :";
+"customer_name" = "Customer Name : ";
+"land_no" = "Land No. : ";
+"area_name" = "Area Name : ";
+
+// Left Menu
+"home_menu" = "Main page ";
+"logout_menu" = "Sign Out" ;
+
+
+
+// Filter
+"file_number" = "Application Number";
+"customer_number" = "Applicant Id";
+"apply_btn" = "Apply";
+"clear_btn" = "CLEAR";
+"filter_projects_lbl" = "Filter your Projects";
+"please_enter" = "Please Enter Land Number or Application Number";
+"please_enter_applicationid" = "Please enter Applicant Id or Application Number";
+"please_enter_applicationNumber" = "Please enter Application Number" ;
+
+// No data & network
+"no_internet_connection" = "Oops ... No Internet Connection";
+"no_attachment_available" = "No Attachment Available";
+"no_data_Available" = "No Data Available";
+"no_data_description" = "No details are available to the entered data";
+"no_attachment_description" = "No attachment files available for download...";
+"not_connected" = "Not Connected .. Please Check Your Internet Connection";
+"server_error" = "Oops ... Server Error";
+"work_in_progress" = "We are working towards creating something better. Won’t be long...";
+
+//Create Report
+"create _report_lbl" = "Create a simplified report";
+"request_number_lbl" = "Request Number:";
+"back_btn" = " Back";
+"create_ reporthousestatus_lbl" = "Create a simplified report for the house status";
+"reporthousestatus_lbl" = "Simplified report for the house status";
+"request_information_lbl" = "Customer and request information";
+"add_Building_btn" = " Add New Building ";
+"building_type_lbl" = "Building Type";
+"completion_date_lbl" = "Apporiximate Completion Date";
+"building_name" = "Building Name";
+"building_elements" = "Building Elements";
+"service_lbl" = "Service";
+"building_status_lbl" = "Building Status";
+"notes_lbl" = "Notes : ";
+"add_photos_btn" = "Add photos : ";
+"add_satellite_photos_btn" = "Add a satellite photo";
+"no_satellite_photos_lbl" = "Number of Satellite Photos";
+"no_add_photos_lbl" = "Number of Photos";
+"save_btn" = "Save";
+"save_and_close_btn" = "Save and Close";
+"next_btn" = "Next";
+"create_simplified_report_lbl" = "Create Simplified report";
+"construction_size_lbl" = "The approximate construction size";
+"horizontal_expansion_lbl" = "Posibility of horizontal expansion";
+"vertical_expansion_lbl" = "Posibility of vertical expansion";
+"conclusion_lbl" = "Conclusion";
+"recommendation_lbl" = "Recommentation";
+"edit_btn" = "Edit";
+"view_btn" = "View";
+"simplified_report_lbl" = "Simplified Report";
+"unknown_btn" = "Unknown";
+"choose_building_btn" = "Choose Building Type";
+"ok_btn" = "OK";
+"Complete_date_lbl" = "Select Approximate Complete Date";
+"partially_lbl" = "Partially";
+"all_lbl" = "All";
+"search_area_lbl" = "Search By Area Name";
+"add_plot_no_lbl" = "Add Plot Number";
+"cancel_btn" = "Cancel";
+"add_btn" = "Add";
+"current_request_lbl" = "Current Request";
+"next_request_lbl" = "Next Request";
+"details_lbl" = "Details";
+"start_trip_btn" = " Start Trip";
+
+//Satellite Map view
+"mapView_lbl" = "Map View:";
+"satellite_btn" = "Satellite" ;
+"defaultMapButton_btn" = "Default" ;
+"select_area_lbl" = "Select Area : ";
+"drawPolygon_btn" = "   Draw a polygon";
+"addBuildingPoint_btn" = "   Add building point";
+"saveBuilding_btn" = "   Save Building";
+"addSatellitePhoto_lbl" = "Add a satellite photo ";
+"addPhoto_lbl" = "Add Photo";
+
+//newly added
+"attachment_Files" = "Attachment Files";
+"no_Internet" = "No Internet";
+"bad_Gateway" = "502 Bad Gateway";
+"the_request_timed_out" = "The request timed out.";
+"photos" = "Photos";
+"error_InvalidJson" = "ERROR: Invalid json! The data couldn’t be read because it isn’t in the correct format.";
+"attachment_uploaded_successfully" = "Attachment Uploaded Successfully";
+"please_enter_the_comments" = "Please enter the comments";
+"kitchen" = "Kitchen";
+"bathroom" = "Bathroom";
+"bedrooms" = "Bedrooms";
+"living_room" = "Living room";
+"washing_room" = "Washing room"; 
+"store" = "Store";
+"approximate_completion_date" = "Approximate completion date : ";
+"building_Type" = "Building Type : ";
+"building_Size" = "Building Size : ";
+"structural" = "Structural : ";
+"services" = "Services : ";
+"building_status" = "Building Status :";
+"reception" = "Reception";
+"rented" = "Rented";
+"deserted" = "Deserted";
+"occupied_by_the_citizen" = "Occupied by the citizen";
+"totally_allowd" = "Totally allowd";
+"not_allowed" = "Not allowed";
+"partially_possible" = "Partially possible";
+"need_more_examination" = "Need more examination";
+"totally_allowd" = "Totally allowd";
+"out_of_conditions" = "Out of conditions";
+"remove_and_replace" = "Remove and replace";
+"maintenance" = "maintenance";
+"good" = " Good ";
+"bad" = " Bad ";
+"average" = " Average ";
+"number_of_Photos" = "Number of Photos : ";
+"number_of_Satelite_Photos" = "Number of Satelite Photos : ";
+"select_Approximate_Complete_Date" = "Select Approximate Complete Date";
+"building_name_not_Available" = "Building name not Available";
+"building_Facility_Details_Not_Available" = "Building Facility Details Not Available";
+"application_ID" = "Application No : ";
+"duration" = "Duration : ";
+"enable_QA_Mode" = "Enable QA Mode";
+"successfully_added_location" = "Successfully added location";
+"successfully_added_Plot_number" = "Successfully added Plot number";
+"no_location_found" = "No Location Found...";
+"no_attachment_found" = "No Attachment found!";
+"downloading_file_please_wait" = "Downloading file..Please wait";
+"downloaded_successfully" = "Downloaded successfully";
+"days" = "days";
+"the_coordinate_is_not_set_for_this_plot." = "The coordinate is not set for this plot.";
+"please_enter_Application_number_or_Land_number." = "Please enter Application number or Land number.";
+"copied_to_clipboard!" = "Copied to clipboard!";
+"page" = "Page";
+"of" = "of";
+"turn_on_Notifications" = "Turn on Notifications";
+"push_notifications_are_turned_off." = "Push notifications are turned off.";
+"No thanks." = "No thanks.";
+"upload" = "Upload";
+"Sorry_There_are_no_images_here" = "Sorry!_There_are_no_images_here!";
+"uploading...." = "Uploading....";
+"your_images_has_been_started_to_upload._Please_click_on_View_to_see_the_progress..." = "Your images has been started to upload. Please click on View to see the progress...";
+"your_Uploading_has_been_completed" = "Your Uploading has been completed";
+"Confirmation" = "Confirmation";
+"Are_you_sure_You_want_to_clear_the_images" = "Are you sure, You want to clear the images ?";
+"DONE" = "DONE";
+"Yes" = "Yes";
+"settings_menu" = "Settings";
+"service_type_lbl" = "Service Type : ";
+"A_Simplified_report_lbl" = "A Simplified report : ";
+"building_Size_lbl" = "Building Size";
+"notes" = "Notes";
+"addaPhoto_lbl" = "Add a Photo ";
+"add_New_Building_Btn" = "    Add New Building  ";
+"house_Status_lbl" = "House Status";
+"satellite_photo_lbl" = "Satellite Photo";
+"no_satellite_image_lbl" = "No Satellite Image";
+"no_photos_attached_lbl" = "No Photos Attached";
+"the_approximate_construction_lbl" = "The Approximate Construction";
+"comments_lbl" = "Comments";
+"submit_report_btn" = "Submit Report";
+"please_add_the_coordinates_to_draw_the_building_points" = "Please add the coordinates to draw the building points.";
+"please_save_building_to_upload_the_image." = "Please save the building to upload the image.";
+"take_photo_btn" = "Take Photo";
+"choose_from_library_btn" = "Choose From Library";
+"please_check_with_real_device_toast" = "Please check with Real Device";
+"check_internet_connectivity_issue" = "Check Internet Connectivity issue";
+"posibility_expansion_lbl" = "Possibility Of Expansion";
+"vertical" = "Vertical";
+"horizontal" = "Horizontal";
+"please_upload_the_image_size_below" = "Please upload the image size below 5 mb.";
+"building_name_not_yet_assigned" = "Building Name not yet assigned";
+"continue_btn" = "Continue";
+"select_polygon_to_add_building_point" = "Select polygon to add building point";
+"one_polygon_can_draw" = "One polygon can draw";
+"callnow_btn_trip" = "CALL NOW";
+"Are_you_sure_want_to_logout" = "Are you sure you want to logout?";
+"logout_btn" = "Logout";
+"Completed_lbl" = "Completed";
+"view_pdf_btn" = "View PDF";
+"delete_btn" = "Delete";
+"search_result_Lbl" = "Search result";
+"view_attached_photos" = "View Attached Photos";
+"application_number_placeHolder" = "Enter Application Number";
+"application_id_placeHolder" = "Enter Applicant Id";
+"contract" = "Contract : ";
+"check_your_wifi_settings_toast" = "  Check your wifi settings";
+"refresh_btn" = "Refresh";
+"please_save_building_first_for_to_proceed _next_toast" = "Please save the building to proceed next.";
+"building_name_placeholder" = "Enter Building Name";
+"pick_building_type_lbl" = "Pick Building Type";
+"enter_building_size_placeholder" = " Enter Building Size";
+"enter_comments_placeholder" = "Enter comments";
+"enter_plotnumber_placeholder" = " Enter Plot Number";
+"generate_Pdf_Btn" = "Generate PDF";
+"select_Building_lbl" = "Select ￼Building";
+"arabic_Language_lbl" = "Arabic Language";
+"add_Comment_lbl" = "Add Comment";
+"are_you_sure_want￼_delete_facility_lbl" = "Are you sure want to delete the ￼facility?";
+"report_Submitted_sucessfully_lbl" = "Report Successfully submitted.";
+"are_you_sure_want￼_delete_attachment_lbl" = "Are you sure want to delete the ￼file?";
+"no_lbl" = "No";
+"yes_lbl" = "Yes";
+"plot_area_lbl" = "Plot area :";
+"serviceType_loan_lbl" = "Loan Maintenance";
+"serviceType_grant_lbl" = "Grant Maintenance";
+"startTrip_error_msg" = "Add requests to trip first, then start your trip";
+"UpgradeTitle_lbl" = "A New version of Grant Inspection app is available !";
+"UpgradeDescription_lbl" = "Grant inspection 2.0 is now available — You have 1.5. Would you like to upgrade it now ?";
+"Update_btn" = "Install the update";
+"NoThanks_btn" = "Skip this version";
+"LatestVersion_lbl" = "Latest version:";
+"Update" = "Update";
+"confirmationPopUp_Title" = "The changes you made are not saved. Make sure to save the changes before leaving this page.";
+"discard_btn" = "Discard";
+"pop_Save_Btn" = "Save";
