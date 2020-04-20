@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Neo Sans Arabic Regular.ttf">
+            <string>NeoSansArabic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BuildingInfoView" customModule="GrantInspection" customModuleProvider="target">
+            <connections>
+                <outlet property="buildingElementsLbl" destination="zkz-EW-pyj" id="bdO-46-iZ0"/>
+                <outlet property="buildingNameLabel" destination="wI8-Lf-0sq" id="5UM-AX-H6N"/>
+                <outlet property="buildingSizeLabel" destination="UTT-3s-Y1w" id="eBa-NQ-U4l"/>
+                <outlet property="buildingStatusLbl" destination="sdN-Cr-Tbm" id="ahv-l6-ca0"/>
+                <outlet property="buildingTypeLabel" destination="9zC-8a-2R1" id="7JP-kl-jz5"/>
+                <outlet property="collectionView" destination="bcq-1P-iRa" id="dJI-0c-3oD"/>
+                <outlet property="completionDateLabel" destination="TLk-Xi-Acy" id="Mi8-za-X1R"/>
+                <outlet property="contentView" destination="ozw-AF-GPJ" id="z82-9T-f0O"/>
+                <outlet property="editButton" destination="RNa-mc-zIY" id="OM5-1z-m4V"/>
+                <outlet property="noOfPhotosLabel" destination="NFs-a4-CDx" id="tGh-qy-eTH"/>
+                <outlet property="noOfSatellitePhotosLabel" destination="LRk-ef-CdD" id="0nB-gH-EZi"/>
+                <outlet property="notesLabel" destination="Oq6-YA-6Di" id="g4l-YA-UTx"/>
+                <outlet property="serviceLabel" destination="k2R-0A-pAu" id="pag-Mc-8iL"/>
+                <outlet property="structuralLabel" destination="Mji-nc-Vrp" id="7OV-bY-6vQ"/>
+                <outlet property="viewAttachedPhotosBtn" destination="A1O-FJ-dyv" id="UMK-iv-iNz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view tag="3000" contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="966" height="482"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ozw-AF-GPJ" customClass="MBRHEBorderView" customModule="GrantInspection" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="5" width="966" height="472"/>
+                    <subviews>
+                        <stackView opaque="NO" tag="1000" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pae-wO-R6s">
+                            <rect key="frame" x="0.0" y="0.0" width="961" height="472"/>
+                            <subviews>
+                                <view tag="3000" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BVt-48-uJG">
+                                    <rect key="frame" x="0.0" y="0.0" width="961" height="67.5"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NNE-Yg-va2">
+                                            <rect key="frame" x="0.0" y="66.5" width="961" height="1"/>
+                                            <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="1" id="cDt-ux-hhh"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Building Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wI8-Lf-0sq">
+                                            <rect key="frame" x="8" y="0.0" width="102" height="66.5"/>
+                                            <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" tag="2999" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNa-mc-zIY" customClass="MBRHERoundButtonView" customModule="GrantInspection" customModuleProvider="target">
+                                            <rect key="frame" x="861" y="17" width="96" height="33.5"/>
+                                            <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="13"/>
+                                            <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="Edit" image="edit_icon">
+                                                <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
+                                                    <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                                    <color key="value" red="0.90980392160000001" green="0.91764705879999997" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="NO"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                    <real key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                    <color key="value" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="wI8-Lf-0sq" firstAttribute="leading" secondItem="BVt-48-uJG" secondAttribute="leading" constant="8" id="1AW-P0-icX"/>
+                                        <constraint firstItem="RNa-mc-zIY" firstAttribute="height" secondItem="BVt-48-uJG" secondAttribute="height" multiplier="0.5" id="3ZI-Em-E4R"/>
+                                        <constraint firstItem="RNa-mc-zIY" firstAttribute="centerY" secondItem="BVt-48-uJG" secondAttribute="centerY" id="4T5-cn-jqx"/>
+                                        <constraint firstItem="NNE-Yg-va2" firstAttribute="top" secondItem="wI8-Lf-0sq" secondAttribute="bottom" id="Icy-pL-z59"/>
+                                        <constraint firstAttribute="trailing" secondItem="RNa-mc-zIY" secondAttribute="trailing" constant="4" id="aWn-QI-Ipy"/>
+                                        <constraint firstItem="RNa-mc-zIY" firstAttribute="width" secondItem="BVt-48-uJG" secondAttribute="width" multiplier="0.1" id="and-eZ-bWc"/>
+                                        <constraint firstAttribute="bottom" secondItem="NNE-Yg-va2" secondAttribute="bottom" id="csc-VG-jBJ"/>
+                                        <constraint firstAttribute="trailing" secondItem="NNE-Yg-va2" secondAttribute="trailing" id="rMd-LB-qN2"/>
+                                        <constraint firstItem="wI8-Lf-0sq" firstAttribute="top" secondItem="BVt-48-uJG" secondAttribute="top" id="y3z-gx-wzu"/>
+                                        <constraint firstItem="NNE-Yg-va2" firstAttribute="leading" secondItem="BVt-48-uJG" secondAttribute="leading" id="zhb-y3-Ix7"/>
+                                    </constraints>
+                                </view>
+                                <view tag="1000" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D7A-BE-VTO">
+                                    <rect key="frame" x="0.0" y="67.5" width="961" height="345.5"/>
+                                    <subviews>
+                                        <stackView opaque="NO" tag="1000" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6HG-w8-g4b">
+                                            <rect key="frame" x="10" y="0.0" width="941" height="345.5"/>
+                                            <subviews>
+                                                <view tag="1000" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wiS-Xh-Vuj">
+                                                    <rect key="frame" x="0.0" y="0.0" width="366.5" height="345.5"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" tag="1000" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="6y2-pY-jhu">
+                                                            <rect key="frame" x="0.0" y="0.0" width="366.5" height="345.5"/>
+                                                            <subviews>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="eBk-eh-R7h">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="366.5" height="148"/>
+                                                                    <subviews>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TLk-Xi-Acy">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="366.5" height="49"/>
+                                                                            <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                                                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Building Type :    -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9zC-8a-2R1">
+                                                                            <rect key="frame" x="0.0" y="49" width="366.5" height="49.5"/>
+                                                                            <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                                                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Building Size :  -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTT-3s-Y1w">
+                                                                            <rect key="frame" x="0.0" y="98.5" width="366.5" height="49.5"/>
+                                                                            <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                                                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                </stackView>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Awz-Sb-rPR">
+                                                                    <rect key="frame" x="0.0" y="148" width="366.5" height="99"/>
+                                                                    <subviews>
+                                                                        <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="VWl-Mu-dgG">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="99"/>
+                                                                            <subviews>
+                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Building Status :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdN-Cr-Tbm">
+                                                                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="49.5"/>
+                                                                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="13"/>
+                                                                                    <nil key="textColor"/>
+                                                                                    <nil key="highlightedColor"/>
+                                                                                </label>
+                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FmH-rA-VQR">
+                                                                                    <rect key="frame" x="0.0" y="49.5" width="0.0" height="49.5"/>
+                                                                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                                                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                    <nil key="highlightedColor"/>
+                                                                                </label>
+                                                                            </subviews>
+                                                                        </stackView>
+                                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wAs-Uf-ut7">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="366.5" height="99"/>
+                                                                            <subviews>
+                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Structural :  -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mji-nc-Vrp">
+                                                                                    <rect key="frame" x="0.0" y="0.0" width="366.5" height="33"/>
+                                                                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                                                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                    <nil key="highlightedColor"/>
+                                                                                </label>
+                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Services :  -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k2R-0A-pAu">
+                                                                                    <rect key="frame" x="0.0" y="33" width="366.5" height="33"/>
+                                                                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                                                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                    <nil key="highlightedColor"/>
+                                                                                </label>
+                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notes : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oq6-YA-6Di">
+                                                                                    <rect key="frame" x="0.0" y="66" width="366.5" height="33"/>
+                                                                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                                                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                    <nil key="highlightedColor"/>
+                                                                                </label>
+                                                                            </subviews>
+                                                                        </stackView>
+                                                                    </subviews>
+                                                                </stackView>
+                                                                <stackView opaque="NO" tag="1000" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="OqE-Vr-s4f">
+                                                                    <rect key="frame" x="0.0" y="247" width="366.5" height="98.5"/>
+                                                                    <subviews>
+                                                                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No of Satellite Photos: 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LRk-ef-CdD">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="366.5" height="0.0"/>
+                                                                            <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                                                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No of Photos : 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFs-a4-CDx">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="366.5" height="49.5"/>
+                                                                            <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                                                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <view tag="1000" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H6d-R2-baT">
+                                                                            <rect key="frame" x="0.0" y="49.5" width="366.5" height="49"/>
+                                                                            <subviews>
+                                                                                <button opaque="NO" tag="2999" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1O-FJ-dyv" customClass="MBRHERoundButtonView" customModule="GrantInspection" customModuleProvider="target">
+                                                                                    <rect key="frame" x="36.5" y="14.5" width="293.5" height="20"/>
+                                                                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="13"/>
+                                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="10" maxY="0.0"/>
+                                                                                    <state key="normal" title="View Attached Photos" image="view_icon">
+                                                                                        <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                    </state>
+                                                                                    <userDefinedRuntimeAttributes>
+                                                                                        <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
+                                                                                            <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                        </userDefinedRuntimeAttribute>
+                                                                                        <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                                                                            <color key="value" red="0.90980392160000001" green="0.91764705879999997" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                        </userDefinedRuntimeAttribute>
+                                                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="NO"/>
+                                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                            <real key="value" value="1"/>
+                                                                                        </userDefinedRuntimeAttribute>
+                                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                                            <color key="value" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                        </userDefinedRuntimeAttribute>
+                                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                            <real key="value" value="5"/>
+                                                                                        </userDefinedRuntimeAttribute>
+                                                                                    </userDefinedRuntimeAttributes>
+                                                                                </button>
+                                                                            </subviews>
+                                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <constraints>
+                                                                                <constraint firstItem="A1O-FJ-dyv" firstAttribute="width" secondItem="H6d-R2-baT" secondAttribute="width" multiplier="0.8" id="HIT-MZ-xIk"/>
+                                                                                <constraint firstItem="A1O-FJ-dyv" firstAttribute="centerY" secondItem="H6d-R2-baT" secondAttribute="centerY" id="JzY-J5-fVc"/>
+                                                                                <constraint firstItem="A1O-FJ-dyv" firstAttribute="centerX" secondItem="H6d-R2-baT" secondAttribute="centerX" id="Ne2-31-WiV"/>
+                                                                                <constraint firstItem="A1O-FJ-dyv" firstAttribute="height" secondItem="H6d-R2-baT" secondAttribute="height" multiplier="0.4" id="R98-if-M3c"/>
+                                                                            </constraints>
+                                                                        </view>
+                                                                    </subviews>
+                                                                </stackView>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="6y2-pY-jhu" secondAttribute="trailing" id="55C-Ze-IbU"/>
+                                                        <constraint firstItem="6y2-pY-jhu" firstAttribute="leading" secondItem="wiS-Xh-Vuj" secondAttribute="leading" id="6RV-Gl-IiB"/>
+                                                        <constraint firstAttribute="bottom" secondItem="6y2-pY-jhu" secondAttribute="bottom" id="RqU-sP-Fmy"/>
+                                                        <constraint firstItem="6y2-pY-jhu" firstAttribute="top" secondItem="wiS-Xh-Vuj" secondAttribute="top" id="jHK-Eu-MBn"/>
+                                                    </constraints>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cwF-Ql-Mro">
+                                                    <rect key="frame" x="376.5" y="0.0" width="564.5" height="345.5"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1oI-Af-bhh">
+                                                            <rect key="frame" x="0.0" y="0.0" width="564.5" height="345.5"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BuildingElements" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkz-EW-pyj">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="564.5" height="73"/>
+                                                                    <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="bcq-1P-iRa">
+                                                                    <rect key="frame" x="0.0" y="73" width="564.5" height="272.5"/>
+                                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="OIa-z9-x7p">
+                                                                        <size key="itemSize" width="50" height="50"/>
+                                                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                                    </collectionViewFlowLayout>
+                                                                </collectionView>
+                                                            </subviews>
+                                                            <constraints>
+                                                                <constraint firstItem="zkz-EW-pyj" firstAttribute="height" secondItem="1oI-Af-bhh" secondAttribute="width" multiplier="0.13" id="HwT-Ut-dWf"/>
+                                                            </constraints>
+                                                        </stackView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="bottom" secondItem="1oI-Af-bhh" secondAttribute="bottom" id="1ad-SA-VsX"/>
+                                                        <constraint firstAttribute="trailing" secondItem="1oI-Af-bhh" secondAttribute="trailing" id="6M1-TL-3PI"/>
+                                                        <constraint firstItem="1oI-Af-bhh" firstAttribute="leading" secondItem="cwF-Ql-Mro" secondAttribute="leading" id="K2v-vo-NXq"/>
+                                                        <constraint firstItem="1oI-Af-bhh" firstAttribute="top" secondItem="cwF-Ql-Mro" secondAttribute="top" id="LR0-Km-quj"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="cwF-Ql-Mro" firstAttribute="width" secondItem="6HG-w8-g4b" secondAttribute="width" multiplier="0.6" id="8Xa-m2-Fdj"/>
+                                                <constraint firstItem="wiS-Xh-Vuj" firstAttribute="height" secondItem="6HG-w8-g4b" secondAttribute="height" id="yZf-IU-m22"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="6HG-w8-g4b" secondAttribute="trailing" constant="10" id="OEX-vQ-FBs"/>
+                                        <constraint firstItem="6HG-w8-g4b" firstAttribute="top" secondItem="D7A-BE-VTO" secondAttribute="top" id="QnH-JC-amH"/>
+                                        <constraint firstItem="6HG-w8-g4b" firstAttribute="leading" secondItem="D7A-BE-VTO" secondAttribute="leading" constant="10" id="Rgl-Ic-dfM"/>
+                                        <constraint firstAttribute="bottom" secondItem="6HG-w8-g4b" secondAttribute="bottom" id="iYr-my-lyv"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t7V-hb-6S0">
+                                    <rect key="frame" x="0.0" y="413" width="961" height="59"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="D7A-BE-VTO" firstAttribute="height" secondItem="pae-wO-R6s" secondAttribute="width" multiplier="0.36" id="aAB-ci-oZR"/>
+                                <constraint firstItem="BVt-48-uJG" firstAttribute="height" secondItem="pae-wO-R6s" secondAttribute="width" multiplier="0.07" id="otn-gK-aH6"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="pae-wO-R6s" secondAttribute="bottom" id="FOD-5A-YE3"/>
+                        <constraint firstItem="pae-wO-R6s" firstAttribute="top" secondItem="ozw-AF-GPJ" secondAttribute="top" id="aQv-bd-bH3"/>
+                        <constraint firstItem="pae-wO-R6s" firstAttribute="leading" secondItem="ozw-AF-GPJ" secondAttribute="leading" id="ali-iN-nUZ"/>
+                        <constraint firstAttribute="trailing" secondItem="pae-wO-R6s" secondAttribute="trailing" constant="5" id="tR6-7D-WVu"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ozw-AF-GPJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="7uX-8U-8zO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="ozw-AF-GPJ" secondAttribute="bottom" constant="5" id="XYQ-9t-Uek"/>
+                <constraint firstItem="ozw-AF-GPJ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="5" id="YA0-Ko-IfW"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ozw-AF-GPJ" secondAttribute="trailing" id="ueU-4E-fJA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="213" y="-95"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="edit_icon" width="12" height="11"/>
+        <image name="view_icon" width="14" height="10"/>
+    </resources>
+</document>

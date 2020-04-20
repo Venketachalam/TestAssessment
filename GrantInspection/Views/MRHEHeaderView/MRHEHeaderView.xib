@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="MRHEHeaderView" customModule="GrantInspection" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vOS-wF-RqX">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="100"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dubai_logo" translatesAutoresizingMaskIntoConstraints="NO" id="uuP-em-jJU">
+                            <rect key="frame" x="50" y="26.5" width="107" height="47"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="107" id="ZgS-4U-lgM"/>
+                                <constraint firstAttribute="height" constant="47" id="oMN-ds-o2u"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="200" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MRHE-logo" translatesAutoresizingMaskIntoConstraints="NO" id="RzE-Mt-vf7">
+                            <rect key="frame" x="729" y="30" width="205" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="Td1-6Q-eDn"/>
+                                <constraint firstAttribute="width" constant="205" id="j64-RL-yUB"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="uuP-em-jJU" firstAttribute="centerY" secondItem="vOS-wF-RqX" secondAttribute="centerY" id="28V-Oh-hNP"/>
+                        <constraint firstItem="RzE-Mt-vf7" firstAttribute="centerY" secondItem="vOS-wF-RqX" secondAttribute="centerY" id="2wQ-SQ-UfO"/>
+                        <constraint firstAttribute="trailing" secondItem="RzE-Mt-vf7" secondAttribute="trailing" constant="90" id="ae6-fo-jUs"/>
+                        <constraint firstItem="uuP-em-jJU" firstAttribute="leading" secondItem="vOS-wF-RqX" secondAttribute="leading" constant="50" id="rrH-0v-yTd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.94117647058823528" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vOS-wF-RqX" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="0CW-uP-BJm"/>
+                <constraint firstItem="vOS-wF-RqX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Cby-oH-AQ3"/>
+                <constraint firstItem="vOS-wF-RqX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="m8q-tw-MIp"/>
+                <constraint firstItem="vOS-wF-RqX" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="mDm-ya-oLF"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <connections>
+                <outlet property="dubaiLogo" destination="uuP-em-jJU" id="olB-Sq-1am"/>
+                <outlet property="mrheLogo" destination="RzE-Mt-vf7" id="RFr-sp-fTX"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="-226"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="MRHE-logo" width="310" height="60"/>
+        <image name="dubai_logo" width="107" height="47"/>
+    </resources>
+</document>
