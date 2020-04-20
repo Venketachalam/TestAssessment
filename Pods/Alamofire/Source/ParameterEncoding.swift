@@ -266,7 +266,7 @@ public struct URLEncoding: ParameterEncoding {
         if #available(iOS 8.3, *) {
             escaped = string.addingPercentEncoding(withAllowedCharacters: allowedCharacterSet) ?? string
         } else {
-            let batchSize = 50
+            let batchSize = 10
             var index = string.startIndex
 
             while index != string.endIndex {
