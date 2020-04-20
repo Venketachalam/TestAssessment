@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Neo Sans Arabic Regular.ttf">
+            <string>NeoSansArabic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell tag="3000" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BuildingInfoCell_ID" rowHeight="110" id="KGk-i7-Jjw" customClass="BuildingInfoCell" customModule="GrantInspection" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="110"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="GZm-3G-tej">
+                        <rect key="frame" x="0.0" y="10" width="400" height="90"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o5f-3O-h1y" customClass="BuildingInfoView" customModule="GrantInspection" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="400" height="61"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view tag="2999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eE0-bU-QWd">
+                                <rect key="frame" x="0.0" y="61" width="400" height="29"/>
+                                <subviews>
+                                    <stackView opaque="NO" tag="2999" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="o5e-Vw-YUA">
+                                        <rect key="frame" x="10" y="6" width="160" height="17"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nz7-cj-xyt" customClass="MBRHERoundButtonView" customModule="GrantInspection" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="54" height="17"/>
+                                                <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                                <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Back" image="backArrow_icon">
+                                                    <color key="titleColor" red="0.156578362" green="0.3727608919" blue="0.60787004229999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.66666666666666663" alpha="0.29948833626760563" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                                        <color key="value" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHD-lN-mqE" customClass="MBRHERoundButtonView" customModule="GrantInspection" customModuleProvider="target">
+                                                <rect key="frame" x="64" y="0.0" width="96" height="17"/>
+                                                <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                                                <state key="normal" title="Next">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
+                                                        <color key="value" red="0.0" green="0.51764705879999995" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                                        <color key="value" red="0.0" green="0.35686274509999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="mHD-lN-mqE" firstAttribute="width" secondItem="o5e-Vw-YUA" secondAttribute="width" multiplier="0.6" id="mDZ-Th-nMC"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="o5e-Vw-YUA" firstAttribute="leading" secondItem="eE0-bU-QWd" secondAttribute="leading" constant="10" id="H8D-GV-qms"/>
+                                    <constraint firstItem="o5e-Vw-YUA" firstAttribute="width" secondItem="eE0-bU-QWd" secondAttribute="width" multiplier="0.4" id="NLr-m6-SQv"/>
+                                    <constraint firstItem="o5e-Vw-YUA" firstAttribute="height" secondItem="eE0-bU-QWd" secondAttribute="height" multiplier="0.6" id="q1W-cg-U1L"/>
+                                    <constraint firstItem="o5e-Vw-YUA" firstAttribute="centerY" secondItem="eE0-bU-QWd" secondAttribute="centerY" id="wre-wO-YGL"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="eE0-bU-QWd" firstAttribute="height" secondItem="GZm-3G-tej" secondAttribute="width" multiplier="0.08" constant="-3.2000000000000028" id="byZ-tY-JzC"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="GZm-3G-tej" secondAttribute="trailing" id="5Mg-E7-bNC"/>
+                    <constraint firstItem="GZm-3G-tej" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Ztx-j8-tMd"/>
+                    <constraint firstAttribute="bottom" secondItem="GZm-3G-tej" secondAttribute="bottom" constant="10" id="a1o-Sw-5A3"/>
+                    <constraint firstItem="GZm-3G-tej" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="aIU-Ok-4Tc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backButton" destination="nz7-cj-xyt" id="g3w-3o-wt9"/>
+                <outlet property="buildingInfoView" destination="o5f-3O-h1y" id="Gve-UU-TNp"/>
+                <outlet property="footerView" destination="eE0-bU-QWd" id="Upu-ir-MJu"/>
+                <outlet property="nextButton" destination="mHD-lN-mqE" id="aO0-IA-Yoy"/>
+            </connections>
+            <point key="canvasLocation" x="82.608695652173921" y="111.83035714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="backArrow_icon" width="6" height="10"/>
+    </resources>
+</document>

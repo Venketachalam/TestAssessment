@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Neo Sans Arabic Regular.ttf">
+            <string>NeoSansArabic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DeletePopupView" customModule="GrantInspection" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KdD-CC-1G7">
+                    <rect key="frame" x="322" y="309" width="380" height="150"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you sure want to delete the attachment ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yo-EQ-38H">
+                            <rect key="frame" x="15" y="15" width="348" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="bvv-We-hXk"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="17"/>
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ed-mY-5VP" customClass="MBRHERoundButtonView" customModule="GrantInspection" customModuleProvider="target">
+                            <rect key="frame" x="15" y="82" width="168" height="53"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="53" id="qaC-ps-R6Q"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="15"/>
+                            <state key="normal" title="Delete">
+                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
+                                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                    <color key="value" red="0.90980392160000001" green="0.91764705879999997" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDk-cB-GiW" customClass="MBRHERoundButtonView" customModule="GrantInspection" customModuleProvider="target">
+                            <rect key="frame" x="198" y="82" width="168" height="53"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="53" id="VgL-kI-Yht"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="15"/>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
+                                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                    <color key="value" red="0.90980392156862744" green="0.91764705882352937" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="vDk-cB-GiW" firstAttribute="width" secondItem="5ed-mY-5VP" secondAttribute="width" id="2WJ-Ja-Zoh"/>
+                        <constraint firstAttribute="bottom" secondItem="vDk-cB-GiW" secondAttribute="bottom" constant="15" id="6vb-Rz-rAP"/>
+                        <constraint firstItem="vDk-cB-GiW" firstAttribute="top" secondItem="8yo-EQ-38H" secondAttribute="bottom" constant="27" id="7IV-5v-FfD"/>
+                        <constraint firstAttribute="width" constant="380" id="98m-37-gp4"/>
+                        <constraint firstItem="5ed-mY-5VP" firstAttribute="top" secondItem="8yo-EQ-38H" secondAttribute="bottom" constant="27" id="CEK-fy-bU1"/>
+                        <constraint firstItem="8yo-EQ-38H" firstAttribute="leading" secondItem="KdD-CC-1G7" secondAttribute="leading" constant="15" id="E0o-ec-6gf"/>
+                        <constraint firstAttribute="height" constant="150" id="OyT-UL-kxF"/>
+                        <constraint firstItem="8yo-EQ-38H" firstAttribute="top" secondItem="KdD-CC-1G7" secondAttribute="top" constant="15" id="art-2F-e26"/>
+                        <constraint firstAttribute="trailing" secondItem="vDk-cB-GiW" secondAttribute="trailing" constant="14" id="h2B-tL-8ET"/>
+                        <constraint firstAttribute="bottom" secondItem="5ed-mY-5VP" secondAttribute="bottom" constant="15" id="nTg-CN-tN6"/>
+                        <constraint firstItem="vDk-cB-GiW" firstAttribute="leading" secondItem="5ed-mY-5VP" secondAttribute="trailing" constant="15" id="tbC-zC-nR1"/>
+                        <constraint firstItem="vDk-cB-GiW" firstAttribute="height" secondItem="5ed-mY-5VP" secondAttribute="height" id="ulY-ic-0Gh"/>
+                        <constraint firstAttribute="trailing" secondItem="8yo-EQ-38H" secondAttribute="trailing" constant="17" id="va8-to-mZO"/>
+                        <constraint firstItem="5ed-mY-5VP" firstAttribute="leading" secondItem="KdD-CC-1G7" secondAttribute="leading" constant="15" id="zbU-BV-YZU"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.1529411765" blue="0.2470588235" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="KdD-CC-1G7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Gv8-dD-YMu"/>
+                <constraint firstItem="KdD-CC-1G7" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="MGs-aJ-TY3"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="cancelButton" destination="vDk-cB-GiW" id="lTR-0O-5y1"/>
+                <outlet property="deleteButton" destination="5ed-mY-5VP" id="NB8-Ac-TGZ"/>
+                <outlet property="titleLabelForDelete" destination="8yo-EQ-38H" id="Xod-Li-QXQ"/>
+            </connections>
+            <point key="canvasLocation" x="14.648437499999998" y="34.375"/>
+        </view>
+    </objects>
+</document>
