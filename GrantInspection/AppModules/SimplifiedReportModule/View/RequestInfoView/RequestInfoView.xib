@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Neo Sans Arabic Regular.ttf">
+            <string>NeoSansArabic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RequestInfoView" customModule="GrantInspection" customModuleProvider="target">
+            <connections>
+                <outlet property="applicationIDLabel" destination="xcT-HF-IXO" id="FBA-U1-Wgi"/>
+                <outlet property="areaNameLabel" destination="gbN-xj-wd3" id="Fb7-NM-bdN"/>
+                <outlet property="contentView" destination="3wu-hH-Ay0" id="y42-ub-ua1"/>
+                <outlet property="customerNameLabel" destination="vXx-sn-RyG" id="Jdg-uV-Zdc"/>
+                <outlet property="durationLabel" destination="zWm-UM-yYI" id="7Ql-wi-XDn"/>
+                <outlet property="landNumberLabel" destination="fEA-u0-qLR" id="pea-JW-Ss1"/>
+                <outlet property="plotAreaLabel" destination="FZJ-RL-yf8" id="QMf-5o-U1D"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1449" height="530"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3wu-hH-Ay0">
+                    <rect key="frame" x="0.0" y="0.0" width="1449" height="530"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Ftn-mJ-FKU">
+                            <rect key="frame" x="0.0" y="0.0" width="1449" height="530"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gD7-OM-bNc">
+                                    <rect key="frame" x="0.0" y="0.0" width="724.5" height="530"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Applicant ID: 11222333" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xcT-HF-IXO">
+                                            <rect key="frame" x="0.0" y="0.0" width="724.5" height="176.5"/>
+                                            <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customer Name : Ahmed Mohamed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vXx-sn-RyG">
+                                            <rect key="frame" x="0.0" y="176.5" width="724.5" height="177"/>
+                                            <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Land Number: #22222" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEA-u0-qLR">
+                                            <rect key="frame" x="0.0" y="353.5" width="724.5" height="176.5"/>
+                                            <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="HhY-vI-FfV">
+                                    <rect key="frame" x="724.5" y="0.0" width="724.5" height="530"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="٤ - ٥ أيام :Duration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWm-UM-yYI">
+                                            <rect key="frame" x="0.0" y="0.0" width="724.5" height="176.5"/>
+                                            <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="منطقة الورقاء ال2ابعة :Area Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbN-xj-wd3">
+                                            <rect key="frame" x="0.0" y="176.5" width="724.5" height="177"/>
+                                            <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plot Area :45000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZJ-RL-yf8">
+                                            <rect key="frame" x="0.0" y="353.5" width="724.5" height="176.5"/>
+                                            <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Ftn-mJ-FKU" firstAttribute="leading" secondItem="3wu-hH-Ay0" secondAttribute="leading" id="Fri-5W-mA0"/>
+                        <constraint firstAttribute="bottom" secondItem="Ftn-mJ-FKU" secondAttribute="bottom" id="JYR-8k-s0T"/>
+                        <constraint firstAttribute="trailing" secondItem="Ftn-mJ-FKU" secondAttribute="trailing" id="R7m-WE-6Vi"/>
+                        <constraint firstItem="Ftn-mJ-FKU" firstAttribute="top" secondItem="3wu-hH-Ay0" secondAttribute="top" id="beP-GE-msv"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="3wu-hH-Ay0" secondAttribute="bottom" id="83y-bg-54u"/>
+                <constraint firstItem="3wu-hH-Ay0" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="LZE-89-G0u"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="3wu-hH-Ay0" secondAttribute="trailing" id="aKB-H8-lVX"/>
+                <constraint firstItem="3wu-hH-Ay0" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="kZT-iN-Ixd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="404.296875" y="-60.937499999999993"/>
+        </view>
+    </objects>
+</document>
